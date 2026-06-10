@@ -12,6 +12,22 @@ Valence Product Value Lens is a guided, option-based skill. It helps users quick
 
 Valence 产品价值透镜是一个选项式引导 Skill，帮助用户快速判断数字产品类型、可能价值路径，以及后续若要做可靠价值评估需要准备哪些数据。
 
+It is designed to prevent one common failure mode in digital product conversations: jumping from "the product exists" or "people use it" directly to "the product has value." The skill helps users slow down, identify the right value logic, and understand what evidence is still needed.
+
+它解决的不是“帮你直接算 ROI”，而是避免数字产品价值讨论里最常见的误区：把“上线了”“有人用”“老板觉得重要”直接等同于“产生了可证明价值”。
+
+## Typical 3-Minute Flow
+
+A typical run should feel like a lightweight guided wizard, not a consulting interview.
+
+1. Choose the main user or audience of the product.
+2. Choose what the product mainly helps users do.
+3. Answer 1-2 narrowed branch questions based on the previous choices.
+4. Select which data is already available, unknown, or not applicable.
+5. Receive a `Valence Product Value Lens Result` with likely value paths, recommended metrics, data maturity, and next steps.
+
+The runtime should ask one adaptive multiple-choice question at a time. It should not show a long open-ended questionnaire or require sensitive internal documents.
+
 ## Who It Is For
 
 - Product owners who need a first value logic view for one digital product.
@@ -58,6 +74,8 @@ Load `SKILL.md` as the main instruction and follow the linked Markdown reference
 
 `Valence` and `Valence Product Value Lens` are project names of the author. The MIT license covers this Markdown skill, examples, and supporting text in this repository. It does not publish or grant rights to the full Valence Product Value Governance System, portfolio governance model, internal operating rhythm, or proprietary client materials.
 
+See [NOTICE.md](NOTICE.md) for the public boundary and license scope.
+
 ## Runtime Compatibility
 
 This is a pure Markdown skill and can be used by Codex, Claude Code, Open Claw, and Hermes. See [runtime_compatibility.md](runtime_compatibility.md).
@@ -94,8 +112,33 @@ Sales execution / field-force productivity product.
 - User-Business Value -> Revenue Growth
 - User-Business Value -> Decision Quality / Management Visibility
 
+## 5. Suggested Value Logic
+Start with productivity and management visibility. Treat revenue as a hypothesis until conversion, order lift, or execution improvement can be credibly attributed.
+
+## 6. Recommended Metrics to Collect
+
+| Metric | Why It Matters | Suggested Owner | User Has It? |
+| --- | --- | --- | --- |
+| Active users | Confirms adoption and coverage | Product owner | Yes |
+| Usage frequency | Measures usage depth | Sales operations | Yes |
+| Visit completion / execution rate | Tests whether field execution improved | Sales operations | Not selected |
+| Conversion, order lift, or sales proxy | Tests revenue hypothesis | Sales owner / finance | Not selected |
+| Annual run cost | Needed before any investment efficiency discussion | D&T / finance | Not selected |
+| Business owner confirmation | Prevents over-attribution | Business owner | Not sure |
+
 ## 7. Data Maturity Level
-Level 1: Value Logic Draft Ready
+Level 1: Value Logic Draft Ready. Usage data exists, but baseline, cost, and business value evidence are not yet sufficient for reliable value estimation.
+
+## 8. What Not To Do
+- Do not count all sales growth as product value.
+- Do not treat visit records as revenue evidence by themselves.
+- Do not call productivity a direct saving without budget or finance evidence.
+
+## 9. Recommended Next Step
+Collect active usage, usage frequency, annual run cost, and one business outcome proxy. Ask the business owner to confirm which value path should be used first.
+
+## 10. CTA
+如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 ```
 
 ## Relationship With Valence
@@ -111,8 +154,8 @@ If multiple products need consistent value logic, adoption, cost, and value evid
 - [SKILL.md](SKILL.md): agent-facing usage instructions.
 - [runtime_compatibility.md](runtime_compatibility.md): compatibility instructions for Codex, Claude Code, Open Claw, and Hermes.
 - [conversation_flow.md](conversation_flow.md): guided wizard questions and clarification rules.
-- [value_taxonomy.md](value_taxonomy.md): value taxonomy and Haleon mapping.
+- [value_taxonomy.md](value_taxonomy.md): value taxonomy, classification heuristics, and Haleon mapping.
 - [data_checklists.md](data_checklists.md): data requirements, owners, and pitfalls by value path.
 - [output_templates.md](output_templates.md): reusable final-answer templates.
 - [examples.md](examples.md): seven complete option-based examples.
-
+- [NOTICE.md](NOTICE.md): public boundary and license scope.
