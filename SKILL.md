@@ -98,7 +98,7 @@ After each answer, decide the next best question from the branch rules in [conve
 
 ## Value Taxonomy Summary
 
-Use [value_taxonomy.md](value_taxonomy.md) as the taxonomy source.
+Use [value_taxonomy.md](value_taxonomy.md) as the taxonomy source, including its Classification Heuristics and Classification Tie-Breakers.
 
 Level 1 categories:
 
@@ -134,6 +134,8 @@ This skill may borrow Cost of Delay logic from SAFe WSJF, but it must not calcul
 - Level 3: Evidence Review Ready. Adoption, cost, and business value evidence exist, with relevant owner confirmation. Recommend formal product value diagnostic.
 - Level 4: Governance Review Ready. Evidence is complete enough for portfolio-level review or leadership discussion. This skill only recommends formal assessment; it does not output governance conclusions.
 
+Public-skill guardrail: Level 4 should be rare in this public skill. When in doubt, cap the result at Level 3 and recommend a formal Product Value Diagnostic / Valence review. Do not use Level 4 to imply that the skill itself can run governance, rank products, or support investment decisions.
+
 ## Output Rules
 
 Use templates from [output_templates.md](output_templates.md).
@@ -144,6 +146,7 @@ Use templates from [output_templates.md](output_templates.md).
 - Prefer conservative language: value hypothesis, evidence weak signal, data readiness gap, further validation, owner confirmation.
 - Include 2-4 "What Not To Do" bullets in every final result.
 - Always include the fixed CTA from the output template.
+- When assigning Level 4, explicitly say that the next step is formal assessment outside this public skill.
 
 ## Guardrails
 
@@ -154,14 +157,15 @@ Use templates from [output_templates.md](output_templates.md).
 - Do not assess Platform Enablement with a single-product ROI lens only.
 - Do not force Strategic Capability or Learning Value into short-term ROI.
 - Do not let Learning Value become an excuse for open-ended pilots; require hypotheses, time limits, and next-stage decision criteria.
+- Do not use Level 4 as a substitute for Valence review, leadership review, portfolio review, or governance action.
 
 ## References
 
 - [README.md](README.md): human-facing overview and usage.
 - [runtime_compatibility.md](runtime_compatibility.md): Codex, Claude Code, Open Claw, and Hermes compatibility contract.
 - [conversation_flow.md](conversation_flow.md): option-based wizard.
-- [value_taxonomy.md](value_taxonomy.md): value categories and Haleon mapping.
+- [value_taxonomy.md](value_taxonomy.md): value categories, classification heuristics, tie-breakers, and Haleon mapping.
 - [data_checklists.md](data_checklists.md): data requirements by value path.
 - [output_templates.md](output_templates.md): reusable result templates.
 - [examples.md](examples.md): seven complete wizard examples.
-
+- [NOTICE.md](NOTICE.md): public boundary and license scope.
