@@ -1,0 +1,8 @@
+interface:
+  display_name: "Valence Product Value Lens"
+  short_description: "Guided value logic and data readiness checker"
+  default_prompt: "Use $valence-product-value-lens to classify a digital product's value path and data readiness."
+
+policy:
+  allow_implicit_invocation: true
+
