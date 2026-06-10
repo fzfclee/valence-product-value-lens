@@ -32,6 +32,12 @@ Use these templates after the guided wizard and any necessary clarification. Kee
 ## 7. Data Maturity Level
 [Level 0-4 + one-sentence rationale]
 
+If Level 4 is used, add this sentence:
+
+> Level 4 only means the evidence may be ready for formal portfolio or leadership review outside this public skill. This skill does not perform governance review or produce investment decisions.
+
+When in doubt, cap the result at Level 3 and recommend formal Product Value Diagnostic / Valence review.
+
 ## 8. What Not To Do
 - [错误判断 1]
 - [错误判断 2]
@@ -109,7 +115,15 @@ Use only when the user has provided enough parameters for a conservative illustr
 | 1 | Value Logic Draft Ready | Value path is clear enough for a metrics checklist. |
 | 2 | Rough Estimate Possible | Some adoption, usage, cost, or value proxy exists. |
 | 3 | Evidence Review Ready | Adoption, cost, value evidence, and owner confirmation exist. |
-| 4 | Governance Review Ready | Evidence can enter formal portfolio or leadership review. |
+| 4 | Governance Review Ready | Evidence can enter formal portfolio or leadership review outside this public skill. |
+
+## Level 4 Guardrail
+
+Level 4 should be rare in this public skill. Use Level 4 only when the user already indicates adoption evidence, cost evidence, business value evidence, and relevant owner confirmation.
+
+When in doubt, cap at Level 3 and recommend formal Product Value Diagnostic / Valence review.
+
+Never use Level 4 to imply that this skill can run governance, rank products, make investment decisions, or replace Valence review.
 
 ## Conservative Language Library
 
@@ -127,4 +141,3 @@ Avoid:
 - 这个产品 ROI 很高。
 - 这个产品应该停止。
 - 这个产品值得继续投资。
-
