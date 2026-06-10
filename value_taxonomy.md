@@ -2,6 +2,38 @@
 
 This taxonomy supports entry-level value framing for a single digital product. It borrows the Cost of Delay logic from SAFe WSJF, but this skill does not calculate WSJF scores, rank work, or make portfolio decisions.
 
+## Classification Heuristics
+
+Use these heuristics to classify a product consistently across runtimes. They are routing rules for value framing, not formal scoring rules.
+
+- If the product primarily changes customer acquisition, traffic, lead conversion, order conversion, average order value, repeat purchase, sales success, or channel/customer coverage, start with **User-Business Value -> Revenue Growth**.
+- If the product removes or reduces an externally paid, budget-visible, or contract-visible cost, start with **User-Business Value -> Cost Saving**.
+- If the product avoids future FTE, external service, duplicate build, procurement, capacity expansion, system replacement, or scaling cost, start with **User-Business Value -> Cost Avoidance**.
+- If the product reduces actual labor time, repeated manual work, report preparation, approval handling, document generation, or support workload without proven budget removal, start with **User-Business Value -> Productivity Gain**.
+- If the product improves satisfaction, self-service, task completion, complaints, waiting time, retention, or usage quality, start with **User-Business Value -> Experience / Service Quality Improvement**.
+- If the product gives leaders, managers, or business teams better visibility that should change decisions or actions, start with **User-Business Value -> Decision Quality / Management Visibility**.
+- If the value depends on hitting a campaign, launch, regulatory, contract, fiscal, seasonal, or market-window date, add **Time Criticality -> Deadline-Driven Business Value** or **Time Criticality -> Value Decay**.
+- If the product protects orders, production, supply chain, payment, store, customer service, critical interfaces, or other essential operations from interruption, start with **Time Criticality -> Operational Continuity**.
+- If the product is driven by an audit, remediation, regulation, security, data privacy, quality, or compliance deadline, consider both **Time Criticality -> Compliance / Regulatory Timing** and **Risk Reduction / Opportunity Enablement -> Risk Reduction**.
+- If the product reduces information security, data, access, quality, audit, RAI, model, operational, or compliance risk, start with **Risk Reduction / Opportunity Enablement -> Risk Reduction**.
+- If the product creates a reusable platform, API, data foundation, shared capability, unified entry, observability layer, or common service for downstream products, start with **Risk Reduction / Opportunity Enablement -> Platform Enablement**.
+- If the product creates a future business option, AI capability, data capability, design capability, commercial experiment, productization capability, or reusable strategic asset, start with **Risk Reduction / Opportunity Enablement -> Opportunity Enablement** or **Strategic Capability**.
+- If the product is a PoC, MVP, experiment, early AI trial, or product discovery effort whose main value is learning before committing more investment, start with **Risk Reduction / Opportunity Enablement -> Learning / Validation Value**.
+
+When several paths apply, list one primary path and at most two secondary paths. Prefer the path that best explains what must be evidenced next. Do not over-classify every product into many value paths.
+
+## Classification Tie-Breakers
+
+Use these tie-breakers when the signal is mixed:
+
+- **Revenue Growth vs. Decision Quality**: if the product directly affects conversion, orders, or customer actions, choose Revenue Growth. If it only improves visibility for decisions, choose Decision Quality first and treat revenue as a hypothesis.
+- **Cost Saving vs. Productivity Gain**: if a budget, contract, vendor, license, or material cost is actually reduced, choose Cost Saving. If people save time but no spend is removed, choose Productivity Gain.
+- **Cost Avoidance vs. Cost Saving**: if the cost would have happened in the future but has not been budgeted or incurred, choose Cost Avoidance. If spend was already present and reduced, choose Cost Saving.
+- **Risk Reduction vs. Cost Avoidance**: if the value depends on reducing uncertain downside events, choose Risk Reduction. If the value depends on avoiding a specific future operating cost, choose Cost Avoidance.
+- **Platform Enablement vs. Productivity Gain**: if value is distributed across downstream products, teams, or reuse, choose Platform Enablement. If value is mainly less work for a defined user group, choose Productivity Gain.
+- **Strategic Capability vs. Learning / Validation**: if the product builds an intended enduring capability, choose Strategic Capability. If it mainly tests whether a capability or product idea should proceed, choose Learning / Validation Value.
+- **Operational Continuity vs. Risk Reduction**: if the product protects live operations from interruption, choose Operational Continuity. If it reduces the probability or impact of future risk events, choose Risk Reduction.
+
 ## Level 1A: User-Business Value
 
 Products directly or indirectly create regular business value for users, business teams, or the organization. Value may show up through revenue, cost, efficiency, experience, quality, visibility, or decision improvement.
@@ -186,4 +218,3 @@ Pitfall: Learning value is not an excuse for endless pilots. Require explicit hy
 | Productivity Gain | Separate User-Business Value path | In Haleon language it may map to Cost Avoidance, but it needs distinct metric checks. |
 | Risk Reduction | Risk Reduction / Opportunity Enablement -> Risk Reduction | May be under-emphasized in a simplified three-category view; keep it for compliance, security, quality, and continuity products. |
 | Opportunity Enablement / Strategic Capability | Risk Reduction / Opportunity Enablement | Often unclear in a three-category view, but important for AI, platform, and strategic capability products. |
-
