@@ -14,6 +14,8 @@ Valence 产品价值透镜是一个选项式引导 Skill，帮助用户快速判
 
 It is designed to prevent one common failure mode in digital product conversations: jumping from "the product exists" or "people use it" directly to "the product has value." The skill helps users slow down, identify the right value logic, and understand what evidence is still needed.
 
+It can suggest a public-facing `Directional Value Calculation` path. It does not provide a formal Valence valuation model, portfolio score, investment recommendation, or governance decision.
+
 它解决的不是“帮你直接算 ROI”，而是避免数字产品价值讨论里最常见的误区：把“上线了”“有人用”“老板觉得重要”直接等同于“产生了可证明价值”。
 
 ## Typical 3-Minute Flow
@@ -24,7 +26,7 @@ A typical run should feel like a lightweight guided wizard, not a consulting int
 2. Choose what the product mainly helps users do.
 3. Answer 1-2 narrowed branch questions based on the previous choices.
 4. Select which data is already available, unknown, or not applicable.
-5. Receive a `Valence Product Value Lens Result` with likely value paths, recommended metrics, data maturity, and next steps.
+5. Receive a `Valence Product Value Lens Result` with likely value paths, recommended metrics, directional value calculation, data maturity, and next steps.
 
 The runtime should ask one adaptive multiple-choice question at a time. It should not show a long open-ended questionnaire or require sensitive internal documents.
 
@@ -126,19 +128,25 @@ Start with productivity and management visibility. Treat revenue as a hypothesis
 | Annual run cost | Needed before any investment efficiency discussion | D&T / finance | Not selected |
 | Business owner confirmation | Prevents over-attribution | Business owner | Not sure |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Primary productivity value =
+active users x usage frequency x labor time saved per use x labor hourly cost x discount factor.
+
+Revenue growth should remain a hypothesis until order lift and attribution evidence exist.
+
+## 8. Data Maturity Level
 Level 1: Value Logic Draft Ready. Usage data exists, but baseline, cost, and business value evidence are not yet sufficient for reliable value estimation.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - Do not count all sales growth as product value.
 - Do not treat visit records as revenue evidence by themselves.
 - Do not call productivity a direct saving without budget or finance evidence.
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 Collect active usage, usage frequency, annual run cost, and one business outcome proxy. Ask the business owner to confirm which value path should be used first.
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 ```
 
 ## Relationship With Valence

@@ -137,3 +137,195 @@ Why it matters: learning value is only useful when it informs a decision.
 Calculation relevance: supports avoided wrong investment and next-stage confidence.  
 Common pitfalls: endless pilots without hypotheses, time limit, or decision criteria.
 
+## Directional Value Calculation Patterns
+
+Use these patterns to generate the `Directional Value Calculation` section in the final output. These are public-facing calculation directions, not a formal Valence valuation model.
+
+Do not call this section `Total Value`. Do not add proxy metrics such as NPS, CSAT, page views, adoption, and usage frequency directly into a monetary total. First separate value components, then identify which metrics drive money, which metrics prove adoption, and which metrics are only leading indicators.
+
+Do not invent default attribution ratios, discount factors, industry benchmarks, or conversion assumptions. If the user has not provided them, mark them as data to confirm. Do not label self-service deflection or productivity gain as direct Cost Saving unless there is budget, vendor, outsourced service, or finance-confirmed spend reduction.
+
+### Revenue Growth
+
+Directional calculation:
+
+```text
+Incremental gross profit =
+impacted base x conversion/order lift x average order value x gross margin x attribution ratio
+```
+
+Use traffic, leads, conversion, order count, average order value, gross margin, and attribution evidence. Treat revenue as a hypothesis when attribution is weak.
+
+### Cost Saving
+
+Directional calculation:
+
+```text
+Annual direct saving =
+original annual cost - new annual cost
+```
+
+Use only when the cost reduction is visible in budget, contract, procurement, or finance-confirmed spend.
+
+### Cost Avoidance
+
+Directional calculation:
+
+```text
+Avoided cost =
+avoided FTE/external days/procurement/duplicate builds x unit cost x attribution ratio
+```
+
+Use a credible counterfactual baseline. Do not present avoided future spend as confirmed saving.
+
+### Productivity Gain
+
+Directional calculation:
+
+```text
+Productivity value =
+active users or annual transaction volume x usage frequency x labor time saved per use x labor hourly cost x discount factor
+```
+
+Use real labor time saved, not elapsed waiting time. Apply a discount factor when adoption or time-saving evidence is weak.
+
+### Experience / Service Quality Improvement
+
+Directional calculation:
+
+```text
+Directional experience value =
+service cost reduction
++ complaint/ticket reduction value
++ retention/repeat-purchase improvement value
+```
+
+Component directions:
+
+```text
+Service cost reduction / cost avoidance signal =
+self-service completions x confirmed share that would have become assisted service x assisted-service cost per case x attribution ratio to confirm
+```
+
+```text
+Complaint/ticket reduction value =
+reduced complaints or tickets x handling cost per case x attribution ratio
+```
+
+```text
+Retention/repeat-purchase improvement value =
+affected users x retention or repeat-purchase lift x annual value per user x gross margin x attribution ratio
+```
+
+NPS / CSAT are usually leading indicators. They enter value calculation only when linked to retention, repeat purchase, complaint reduction, service cost reduction, or another monetizable outcome.
+
+### Decision Quality / Management Visibility
+
+Directional calculation:
+
+```text
+Directional decision value =
+manual reporting productivity value
++ attributed business improvement from changed decisions
+```
+
+Use decision actions and affected business metrics. Page views alone are not value evidence.
+
+### Deadline-Driven Business Value / Value Decay
+
+Directional calculation:
+
+```text
+Delay value =
+expected value per period x delayed periods x decay or missed-window ratio
+```
+
+Use only when the deadline or value decay window is real and owner-confirmed.
+
+### Operational Continuity
+
+Directional calculation:
+
+```text
+Continuity value =
+avoided downtime x loss per hour/day
++ avoided workaround labor cost
+```
+
+Use SLA, downtime, incident frequency, loss per period, and workaround evidence.
+
+### Compliance / Regulatory Timing
+
+Directional calculation:
+
+```text
+Exposure reduction =
+potential impact x probability or risk tier x reduced exposure period
+```
+
+Use ranges when probability is uncertain. Require legal, compliance, security, QA, or audit owner confirmation.
+
+### Risk Reduction
+
+Directional calculation:
+
+```text
+Risk reduction value =
+potential impact x probability x risk reduction ratio
+```
+
+Usually output as a range or risk-tier logic. Do not judge risk products by adoption rate alone.
+
+### Platform Enablement
+
+Directional calculation:
+
+```text
+Platform value =
+avoided duplicate build
++ downstream reuse value
++ operational efficiency value
++ risk or continuity value
+```
+
+Avoid double counting downstream business value. Separate direct platform value from attributed downstream value.
+
+### Opportunity Enablement
+
+Directional calculation:
+
+```text
+Opportunity enablement value =
+validated future pipeline or option value
++ reuse potential
++ milestone progress
+```
+
+Do not count future opportunity as current realized value. Define next validation milestone.
+
+### Strategic Capability
+
+Directional calculation:
+
+```text
+Strategic capability value =
+capability milestone evidence
++ sponsor-confirmed strategic relevance
++ reusable assets or pilots supported
+```
+
+Do not force short-term ROI. Use milestone-based evidence and sponsor confirmation.
+
+### Learning / Validation Value
+
+Directional calculation:
+
+```text
+Learning value =
+avoided wrong investment
++ validated learning
++ next-stage decision confidence
+```
+
+Require explicit hypothesis, time box, cost of experiment, and go/no-go criteria. Learning value must not justify endless pilots.
+

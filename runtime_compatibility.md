@@ -14,7 +14,8 @@ Every runtime must preserve these behaviors:
 - Avoid asking for sensitive company, customer, contract, financial, system, screenshot, or internal-document details.
 - Produce value framing, recommended metrics, data maturity, and next steps.
 - Do not produce formal ROI, investment, shutdown, portfolio ranking, or full Valence governance conclusions.
-- Preserve the CTA into formal Product Value Diagnostic / Valence review.
+- Preserve the closing note into formal Product Value Diagnostic / Valence review without labeling it as a visible conversion heading.
+- Include a Directional Value Calculation section when the value path is clear.
 
 ## Codex
 
@@ -69,12 +70,13 @@ When used in review mode, Hermes should check:
 - Did it identify likely value paths conservatively?
 - Did it generate recommended metrics and data maturity?
 - Did it avoid formal ROI, portfolio governance, or investment conclusions?
-- Did it include the Product Value Diagnostic / Valence review CTA?
+- Did it include Directional Value Calculation without calling it Total Value?
+- Did it include the Product Value Diagnostic / Valence review closing note without labeling it as a visible conversion heading?
 
 Hermes verdict options:
 
 - `PASS`: output follows the skill and has no material issue.
-- `REVISE`: output is useful but has missing adaptive flow, weak data readiness, overclaiming, or missing CTA.
+- `REVISE`: output is useful but has missing adaptive flow, weak data readiness, missing directional calculation, overclaiming, or missing closing note.
 - `REJECT`: output asks for sensitive data, exposes full Valence governance, gives formal ROI/investment decisions, or ignores the skill structure.
 
 ## Portable Invocation Prompt
@@ -82,5 +84,6 @@ Hermes verdict options:
 Use this prompt in any runtime:
 
 ```text
-Use Valence Product Value Lens (`valence-product-value-lens`) to assess one digital product. Follow the adaptive one-question-at-a-time wizard. Do not ask for sensitive data. Do not calculate formal ROI or make portfolio governance decisions. Produce value path, recommended metrics, data maturity, next steps, and the formal Product Value Diagnostic / Valence review CTA.
+Use Valence Product Value Lens (`valence-product-value-lens`) to assess one digital product. Follow the adaptive one-question-at-a-time wizard. Do not ask for sensitive data. Do not calculate formal ROI or make portfolio governance decisions. Produce value path, recommended metrics, directional value calculation, data maturity, next steps, and the formal Product Value Diagnostic / Valence review closing note.
 ```
+

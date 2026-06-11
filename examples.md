@@ -44,19 +44,25 @@ Start with productivity and management visibility. Treat revenue as a hypothesis
 | Baseline before rollout | Needed for comparison | Sales operations | Not selected |
 | Owner confirmation | Prevents over-attribution | Business owner | Not sure |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Primary productivity value =
+active users x visit/task frequency x labor time saved per field activity x labor hourly cost x discount factor.
+
+Revenue growth remains a hypothesis until conversion, order lift, or execution-quality improvement can be attributed.
+
+## 8. Data Maturity Level
 Level 1: Value Logic Draft Ready. Usage data exists, but baseline and business value evidence are weak.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - Do not count all sales growth as product value.
 - Do not treat visit records as revenue evidence by themselves.
 - Do not call productivity a direct saving without budget evidence.
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 Collect baseline visit completion, current active usage, sales conversion proxy, and business owner confirmation.
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ## Example 2: E-Contract / Workflow Automation Tool
 
@@ -99,19 +105,25 @@ Use labor productivity as the primary logic. Treat printing/courier savings as s
 | Confirmed vendor/material saving | Supports Cost Saving | Finance/procurement | Not selected |
 | Discount factor | Avoids inflated productivity value | Finance/product owner | Not selected |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Primary productivity value =
+annual contract volume x labor time saved per contract x role hourly cost x discount factor.
+
+Confirmed material or courier savings should be calculated separately as annual direct saving only after finance confirmation.
+
+## 8. Data Maturity Level
 Level 2: Rough Estimate Possible. Several productivity parameters exist, but finance confirmation is missing.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - Do not equate approval cycle reduction with labor-hour saving.
 - Do not label unconfirmed printing reduction as direct Cost Saving.
 - Do not use the rough estimate for investment decisions.
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 Run a rough productivity estimate, then ask finance/procurement to confirm any true budget or vendor saving.
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ## Example 3: BI Dashboard / Management Cockpit
 
@@ -153,19 +165,25 @@ Start with manual reporting time saved. Keep decision quality as a value hypothe
 | Decision/action examples | Supports decision quality | Business owner | Not selected |
 | Business metric improvement | Supports monetized value | Business/finance | Not selected |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Reporting productivity value =
+manual report hours saved x reporting cycles x role hourly cost x discount factor.
+
+Decision-quality value should be calculated only where a changed decision can be linked to an affected business metric.
+
+## 8. Data Maturity Level
 Level 2: Rough Estimate Possible for productivity; Level 1 for decision quality.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - Do not use page views alone as value evidence.
 - Do not monetize decision quality without action evidence.
 - Do not assume every viewer creates incremental value.
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 Quantify report automation savings and collect 2-3 examples of decisions or actions changed by the dashboard.
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ## Example 4: Compliance / Risk Control System
 
@@ -206,19 +224,25 @@ Frame value as risk reduction and audit readiness, not adoption-based ROI.
 | Risk reduction mechanism | Explains product contribution | IT/security | Not selected |
 | Owner endorsement | Prevents unsupported claims | Compliance owner | Yes |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Risk reduction value =
+potential impact range x probability or risk tier x risk reduction ratio.
+
+Use this as a range and require compliance, security, or audit owner confirmation before formal review.
+
+## 8. Data Maturity Level
 Level 3: Evidence Review Ready if owner confirmation is documented; otherwise Level 2.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - Do not judge the system only by adoption rate.
 - Do not force a precise ROI on risk reduction.
 - Do not call risk avoidance direct Cost Saving.
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 Document risk type, impact range, control mechanism, and compliance owner confirmation.
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ## Example 5: API / Data Platform / Middle Platform
 
@@ -261,19 +285,25 @@ Assess platform value through downstream reuse, avoided duplicate build, operati
 | Platform run cost | Needed for efficiency view | Platform owner | Yes |
 | Incident or SLA impact | Tests continuity risk | IT operations | Not selected |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Platform value =
+avoided duplicate build + downstream reuse value + operational efficiency value + risk or continuity value.
+
+Separate direct platform value from attributed downstream value to avoid double counting.
+
+## 8. Data Maturity Level
 Level 2: Rough Estimate Possible for platform reuse; more evidence needed for continuity and avoided cost.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - Do not judge the platform by single-product ROI only.
 - Do not ignore downstream dependency.
 - Do not count all downstream value without attribution.
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 Map downstream applications, estimate avoided duplicate build, and classify dependency criticality.
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ## Example 6: AI Content Generator / Knowledge Assistant
 
@@ -317,19 +347,25 @@ Treat productivity as a directional hypothesis and strategic capability as miles
 | Quality/rework rate | Prevents overclaiming | Content owner | Not selected |
 | Validated hypotheses | Supports learning value | Innovation owner | Not selected |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+AI productivity value =
+active pilot users x usage frequency x labor time saved per task x role hourly cost x quality/rework adjustment.
+
+Strategic capability and learning value should remain milestone-based until adoption, quality, and business outcome evidence improve.
+
+## 8. Data Maturity Level
 Level 2: Rough Estimate Possible for limited productivity; Level 1 for strategic capability.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - Do not treat AI novelty as value evidence.
 - Do not ignore human review and rework.
 - Do not turn learning value into an endless pilot.
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 Define pilot hypotheses, collect output quality/rework data, and set next-stage go/no-go criteria.
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ## Example 7: PoC / MVP / Innovation Experiment
 
@@ -372,17 +408,24 @@ Frame value as validated learning and option creation. Do not monetize as curren
 | Completion rate | Tests usefulness | Product owner | Not selected |
 | Go/no-go criteria | Prevents endless pilot | Sponsor | Not selected |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Learning value =
+avoided wrong investment + validated learning + next-stage decision confidence.
+
+Do not monetize the MVP as current ROI until target users, adoption, and business outcomes are clearer.
+
+## 8. Data Maturity Level
 Level 0: Product Story Only moving toward Level 1 once hypotheses and metrics are defined.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - Do not claim ROI from a PoC without adoption and outcome evidence.
 - Do not continue pilots without time limits and decision criteria.
 - Do not count possible future opportunity as realized value.
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 Define target user, hypothesis, pilot metric, time box, and go/no-go criterion with the sponsor.
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+
 

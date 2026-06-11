@@ -20,9 +20,9 @@ Use this skill to help a user move from a rough description of one digital produ
 3. recommended metrics and data checklist;
 4. current data maturity level;
 5. next data collection and stakeholder confirmation actions;
-6. a light CTA into formal Product Value Diagnostic / Valence review when appropriate.
+6. a light closing note into formal Product Value Diagnostic / Valence review when appropriate.
 
-The core deliverable is: value logic + data readiness checklist + data maturity judgment.
+The core deliverable is: value logic + data readiness checklist + directional value calculation path + data maturity judgment.
 
 ## Runtime Compatibility
 
@@ -142,15 +142,21 @@ Use templates from [output_templates.md](output_templates.md).
 
 - If data is insufficient, state: "当前信息足以形成价值口径草案，但不足以进行可靠价值估算。"
 - If enough parameters exist, provide only a rough example calculation with assumptions and limitations.
+- Always include a Directional Value Calculation section when the likely value path is clear.
+- Treat Directional Value Calculation as a public-facing calculation direction, not a formal Valence valuation model.
+- Do not call the calculation "Total Value" and do not imply all metric signals should be added together.
+- Do not invent default attribution ratios, discount factors, industry benchmarks, or conversion assumptions. Mark them as data to confirm unless the user provided them.
 - Do not say a product has no value, has high ROI, should stop, should continue, or deserves more investment.
 - Prefer conservative language: value hypothesis, evidence weak signal, data readiness gap, further validation, owner confirmation.
 - Include 2-4 "What Not To Do" bullets in every final result.
-- Always include the fixed CTA from the output template.
+- End with the fixed closing note from the output template, but do not label it as a conversion heading and do not make it a numbered heading.
 - When assigning Level 4, explicitly say that the next step is formal assessment outside this public skill.
 
 ## Guardrails
 
 - Do not expose full Valence methodology, portfolio governance model, templates, formulas beyond light calculation paths, or operating rhythm.
+- Do not expose proprietary Valence scoring, weighting, portfolio governance, or investment-decision logic. Public directional calculation paths are allowed.
+- Do not present self-service deflection or productivity gain as direct Cost Saving unless budget, vendor, outsourced service, or finance-confirmed spend reduction exists.
 - Do not equate launch, usage, or page views with value.
 - Do not treat Productivity Gain as direct Cost Saving unless finance/budget evidence supports it.
 - Do not treat Risk Reduction as simple Cost Avoidance.
@@ -169,3 +175,4 @@ Use templates from [output_templates.md](output_templates.md).
 - [output_templates.md](output_templates.md): reusable result templates.
 - [examples.md](examples.md): seven complete wizard examples.
 - [NOTICE.md](NOTICE.md): public boundary and license scope.
+

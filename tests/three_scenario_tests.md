@@ -7,9 +7,9 @@ Install path example: `~/.codex/skills/valence-product-value-lens/`
 ## Pass Criteria
 
 - Uses option-based wizard input rather than open-ended questionnaire.
-- Produces product type, audience, core use case, likely value path, suggested value logic, recommended metrics, data maturity level, what-not-to-do, next step, and CTA.
+- Produces product type, audience, core use case, likely value path, suggested value logic, recommended metrics, directional value calculation, data maturity level, what-not-to-do, next step, and closing note.
 - Does not output formal ROI, product shutdown, investment, portfolio ranking, or full Valence governance conclusion.
-- Includes the lead-generation CTA into Product Value Diagnostic / Valence review.
+- Includes a lead-generation closing note into Product Value Diagnostic / Valence review without a visible conversion heading.
 
 ## Scenario 1: Sales Visit / Store Execution Tool
 
@@ -62,23 +62,29 @@ Sales execution / field-force productivity product.
 | Baseline before rollout | Enables comparison | Sales operations | Not selected |
 | Business owner confirmation | Reduces over-attribution | Business owner | Not sure |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Primary productivity value =
+active users x visit/task frequency x labor time saved per field activity x labor hourly cost x discount factor.
+
+Revenue growth remains a hypothesis until conversion, order lift, or execution-quality improvement can be attributed.
+
+## 8. Data Maturity Level
 Level 1: Value Logic Draft Ready. Usage data exists, but value evidence and owner confirmation are not yet strong enough for reliable value estimation.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - 不要把“销售使用了工具”直接等同于“销售增长由工具产生”。
 - 不要把所有销售增长都归因于产品。
 - 不要把记录拜访数量直接当成业务价值。
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 补齐 rollout 前后 visit completion、sales conversion proxy、订单或覆盖改善数据，并找 sales business owner 确认价值口径。
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ### Pass Judgment
 
-PASS. The output identifies a conservative value path and includes a clear CTA into formal Product Value Diagnostic / Valence review.
+PASS. The output identifies a conservative value path and includes a clear closing note into formal Product Value Diagnostic / Valence review.
 
 ## Scenario 2: Compliance / Risk Control System
 
@@ -128,19 +134,25 @@ Compliance / access control / audit trail product.
 | Risk reduction mechanism | Explains product contribution | IT / security owner | Not selected |
 | Owner confirmation | Gives credibility | Compliance / security owner | Yes |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Risk reduction value =
+potential impact range x probability or risk tier x risk reduction ratio.
+
+Use this as a range and require compliance, security, or audit owner confirmation before formal review.
+
+## 8. Data Maturity Level
 Level 3: Evidence Review Ready if owner confirmation is documented. If owner confirmation is informal only, treat as Level 2 until documented.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - 不要把合规系统只按 adoption rate 判断。
 - 不要把 Risk Reduction 简单混同为 Cost Avoidance。
 - 不要输出精确 ROI 或投资建议。
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 用匿名区间补齐潜在影响范围、风险降低机制和 owner 背书记录；如涉及 deadline，再确认监管或审计时间窗口。
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ### Pass Judgment
 
@@ -196,19 +208,25 @@ IT / D&T / 数据 / 平台团队，以及依赖平台的下游产品团队。
 | Dependency criticality / SLA | Tests operational continuity | IT operations | Not selected |
 | Owner confirmation | Supports credibility | Platform / finance owner | Yes |
 
-## 7. Data Maturity Level
+## 7. Directional Value Calculation
+Platform value =
+avoided duplicate build + downstream reuse value + operational efficiency value + risk or continuity value.
+
+Separate direct platform value from attributed downstream value to avoid double counting.
+
+## 8. Data Maturity Level
 Level 2: Rough Estimate Possible. Reuse and run cost data exists, but avoided duplicate build cost and dependency criticality need confirmation.
 
-## 8. What Not To Do
+## 9. What Not To Do
 - 不要把 Platform Enablement 简单按单一 ROI 判断。
 - 不要把所有下游业务价值全部归因给平台。
 - 不要忽略低可见但高关键性的下游依赖。
 
-## 9. Recommended Next Step
+## 10. Recommended Next Step
 建立下游应用清单，估算避免重复建设成本，标注 critical dependency，并用 finance / platform owner 确认 attribution 口径。
 
-## 10. CTA
-如果你有多个数字产品需要统一价值口径、adoption、cost 和 value evidence，可以进入正式 Product Value Diagnostic / Valence review。这个 Skill 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
+---
+小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
 ### Pass Judgment
 
@@ -219,3 +237,5 @@ PASS. The output handles platform value without reducing it to single ROI and in
 All 3 scenarios PASS.
 
 The skill can generate conservative single-product value framing, identify data readiness, avoid overclaiming ROI/governance decisions, and consistently route suitable users toward formal Product Value Diagnostic / Valence review.
+
+
