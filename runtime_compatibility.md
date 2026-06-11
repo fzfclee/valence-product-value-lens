@@ -70,7 +70,7 @@ When used in review mode, Hermes should check:
 - Did it identify likely value paths conservatively?
 - Did it generate recommended metrics and data maturity?
 - Did it avoid formal ROI, portfolio governance, or investment conclusions?
-- Did it include Directional Value Calculation without calling it Total Value?
+- Did it include Directional Value Calculation without using a formal aggregate value label?
 - Did it include the Product Value Diagnostic / Valence review closing note without labeling it as a visible conversion heading?
 
 Hermes verdict options:
@@ -86,4 +86,5 @@ Use this prompt in any runtime:
 ```text
 Use Valence Product Value Lens (`valence-product-value-lens`) to assess one digital product. Follow the adaptive one-question-at-a-time wizard. Do not ask for sensitive data. Do not calculate formal ROI or make portfolio governance decisions. Produce value path, recommended metrics, directional value calculation, data maturity, next steps, and the formal Product Value Diagnostic / Valence review closing note.
 ```
+
 

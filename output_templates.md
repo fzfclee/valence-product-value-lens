@@ -31,7 +31,7 @@ Use these templates after the guided wizard and any necessary clarification. Kee
 
 ## 7. Directional Value Calculation
 
-[Give a directional calculation path based on the likely value path. Do not call it Total Value. Do not imply this is a formal Valence valuation model.]
+[Give a directional calculation path based on the likely value path. Do not use a formal aggregate value label. Do not imply this is a formal Valence valuation model.]
 
 Example format:
 
@@ -120,7 +120,7 @@ Use only when the user has provided enough parameters for a conservative illustr
 ## Directional Value Calculation Rules
 
 - Use the phrase `Directional Value Calculation` in English or `方向性价值折算路径` in Chinese.
-- Do not call it `Total Value`.
+- Do not use a formal aggregate value label.
 - Do not add NPS, CSAT, adoption, usage, and cost metrics together as if they are the same unit.
 - Separate value components, then identify which metrics are financial drivers and which are proxy or evidence signals.
 - Use attribution ratio, discount factor, or confidence limits when the product contribution is uncertain.
@@ -181,3 +181,4 @@ Avoid:
 - 这个产品 ROI 很高。
 - 这个产品应该停止。
 - 这个产品值得继续投资。
+

@@ -141,7 +141,7 @@ Common pitfalls: endless pilots without hypotheses, time limit, or decision crit
 
 Use these patterns to generate the `Directional Value Calculation` section in the final output. These are public-facing calculation directions, not a formal Valence valuation model.
 
-Do not call this section `Total Value`. Do not add proxy metrics such as NPS, CSAT, page views, adoption, and usage frequency directly into a monetary total. First separate value components, then identify which metrics drive money, which metrics prove adoption, and which metrics are only leading indicators.
+Do not use a formal aggregate value label for this section. Do not add proxy metrics such as NPS, CSAT, page views, adoption, and usage frequency directly into a monetary total. First separate value components, then identify which metrics drive money, which metrics prove adoption, and which metrics are only leading indicators.
 
 Do not invent default attribution ratios, discount factors, industry benchmarks, or conversion assumptions. If the user has not provided them, mark them as data to confirm. Do not label self-service deflection or productivity gain as direct Cost Saving unless there is budget, vendor, outsourced service, or finance-confirmed spend reduction.
 
@@ -328,4 +328,5 @@ avoided wrong investment
 ```
 
 Require explicit hypothesis, time box, cost of experiment, and go/no-go criteria. Learning value must not justify endless pilots.
+
 

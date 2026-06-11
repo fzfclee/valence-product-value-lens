@@ -144,7 +144,7 @@ Use templates from [output_templates.md](output_templates.md).
 - If enough parameters exist, provide only a rough example calculation with assumptions and limitations.
 - Always include a Directional Value Calculation section when the likely value path is clear.
 - Treat Directional Value Calculation as a public-facing calculation direction, not a formal Valence valuation model.
-- Do not call the calculation "Total Value" and do not imply all metric signals should be added together.
+- Do not use a formal aggregate value label and do not imply all metric signals should be added together.
 - Do not invent default attribution ratios, discount factors, industry benchmarks, or conversion assumptions. Mark them as data to confirm unless the user provided them.
 - Do not say a product has no value, has high ROI, should stop, should continue, or deserves more investment.
 - Prefer conservative language: value hypothesis, evidence weak signal, data readiness gap, further validation, owner confirmation.
@@ -175,4 +175,5 @@ Use templates from [output_templates.md](output_templates.md).
 - [output_templates.md](output_templates.md): reusable result templates.
 - [examples.md](examples.md): seven complete wizard examples.
 - [NOTICE.md](NOTICE.md): public boundary and license scope.
+
 
