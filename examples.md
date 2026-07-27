@@ -1,431 +1,170 @@
-# Examples
+# Examples v0.2
 
-These examples use adaptive option-based wizard interactions. Each next question should be narrowed by the previous answer. They are illustrative and contain no real company-sensitive information.
+## Example 1 - Enterprise Customer-Contact Tool
 
-## Example 1: Sales Visit / Store Execution Tool
+### Result
 
-User selections: Step 1 A; Step 2 A and F; Step 3 E; Step 4 A and B; Step 5 A, D, F; Step 6 A, B, C, D, Q.  
-Other/context: field team uses a mobile tool to record store visits and execution tasks.
+**Primary Audience**  
+需要持续管理外部客户关系的一线销售和营销人员。
 
-Clarifying questions:
+**Main Problem**  
+客户关系沉淀在私人渠道，触达、继承、合规和数据回传不稳定。
 
-1. Is the main goal more sales conversion or visit productivity?  
-2. Do you have any baseline for visits or sales before rollout?  
-3. Has a business owner confirmed the expected value path?
+**Expected Change**  
+更多目标员工通过企业渠道完成有效客户互动并沉淀客户资产。
 
-User answers: both sales conversion and productivity matter; no reliable baseline; business owner has not confirmed.
+**Value Realization Chain**
 
-# Valence Product Value Lens Result
+```text
+Target sales / marketing users
+→ valid customer interaction through enterprise channel
+→ customer relationship becomes an enterprise asset
+→ lower customer loss and more traceable engagement
+→ Grow / Protect
+```
 
-## 1. Product Type
-Sales execution / field-force productivity product.
+**Evidence KPI**
 
-## 2. Primary Users / Audience
-一线销售 / 商务团队。
+- employees completing valid customer interactions;
+- customer inheritance or transfer rate;
+- content referral and CRM return;
+- customer loss or conversion evidence.
 
-## 3. Core Use Case
-Support visit planning, store execution, and follow-up visibility.
+**Directional Monetization**
 
-## 4. Likely Value Path
-- User-Business Value -> Productivity Gain
-- User-Business Value -> Revenue Growth
-- User-Business Value -> Decision Quality / Management Visibility
+```text
+Protect value
+= customer assets exposed to loss × loss probability reduction × contribution value to confirm
+```
 
-## 5. Suggested Value Logic
-Start with productivity and management visibility. Treat revenue as a hypothesis until conversion or order lift can be attributed.
+```text
+Productivity value
+= active value users × verified net time saved × labor cost × realization factor to confirm
+```
 
-## 6. Recommended Metrics to Collect
+**Product Form Question**  
+Does the product require enterprise identity, customer inheritance, compliance, and ecosystem integration? Do not treat it as an all-employee chat tool.
 
-| Metric | Why It Matters | Suggested Owner | User Has It? |
-| --- | --- | --- | --- |
-| Active users | Confirms adoption | Product owner | Yes |
-| Visit frequency | Measures usage depth | Sales operations | Yes |
-| Orders or conversion lift | Tests revenue hypothesis | Sales owner | Not selected |
-| Baseline before rollout | Needed for comparison | Sales operations | Not selected |
-| Owner confirmation | Prevents over-attribution | Business owner | Not sure |
-
-## 7. Directional Value Calculation
-Primary productivity value =
-active users x visit/task frequency x labor time saved per field activity x labor hourly cost x discount factor.
-
-Revenue growth remains a hypothesis until conversion, order lift, or execution-quality improvement can be attributed.
-
-## 8. Data Maturity Level
-Level 1: Value Logic Draft Ready. Usage data exists, but baseline and business value evidence are weak.
-
-## 9. What Not To Do
-- Do not count all sales growth as product value.
-- Do not treat visit records as revenue evidence by themselves.
-- Do not call productivity a direct saving without budget evidence.
-
-## 10. Recommended Next Step
-Collect baseline visit completion, current active usage, sales conversion proxy, and business owner confirmation.
+**Data Readiness**  
+Level 1-2 depending on customer and time-saving evidence.
 
 ---
-小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
-## Example 2: E-Contract / Workflow Automation Tool
+## Example 2 - Official Brand Mini-Program
 
-User selections: Step 1 F; Step 2 C and D; Step 3 D; Step 4 B; Step 5 C and D; Step 6 A, C, D, E, F.  
-Other/context: contract approval moved from email and manual signature to online flow.
+**Primary Audience**  
+正在主动搜索品牌或相关产品信息的高意向消费者。
 
-Clarifying questions:
+**Main Problem**  
+用户需要快速找到可信官方信息并进入可靠的下一步行动。
 
-1. Is the benefit mainly labor time saved or reduced cycle time?  
-2. Was any vendor, courier, paper, or license cost actually reduced?
+**Expected Change**  
+更多高意向用户进入官方入口、完成核心信息浏览并进入官方购买渠道。
 
-User answers: mainly labor time; some courier and printing cost reduced but not yet finance-confirmed.
+**Value Realization Chain**
 
-# Valence Product Value Lens Result
+```text
+High-intent consumer
+→ trusted official information
+→ lower uncertainty and channel leakage
+→ official purchase path
+→ Grow / Protect
+```
 
-## 1. Product Type
-Workflow automation / e-contract product.
+**Evidence KPI**
 
-## 2. Primary Users / Audience
-职能团队 and request owners.
+- official search or channel coverage;
+- qualified visits;
+- core content completion;
+- purchase-entry clicks;
+- attributed orders or revenue-protection evidence.
 
-## 3. Core Use Case
-Automate contract approval and signing workflow.
+**Directional Monetization**
 
-## 4. Likely Value Path
-- User-Business Value -> Productivity Gain
-- User-Business Value -> Cost Avoidance
-- User-Business Value -> Cost Saving
+```text
+Grow
+= qualified audience × incremental official-path conversion × unit contribution margin × attribution to confirm
+```
 
-## 5. Suggested Value Logic
-Use labor productivity as the primary logic. Treat printing/courier savings as secondary until finance confirms actual spend reduction.
+```text
+Protect
+= high-intent demand × avoided leakage × purchase conversion × unit contribution margin × attribution to confirm
+```
 
-## 6. Recommended Metrics to Collect
+**Product Form Question**  
+Why must this be a standalone mini-program rather than a website, H5, ecommerce official page, or shared multi-brand platform?
 
-| Metric | Why It Matters | Suggested Owner | User Has It? |
-| --- | --- | --- | --- |
-| Annual contract volume | Scales time saving | Process owner | Yes |
-| Time saved per contract | Core productivity driver | Process owner | Yes |
-| Role cost | Converts labor hours directionally | Finance/HR | Yes |
-| Confirmed vendor/material saving | Supports Cost Saving | Finance/procurement | Not selected |
-| Discount factor | Avoids inflated productivity value | Finance/product owner | Not selected |
-
-## 7. Directional Value Calculation
-Primary productivity value =
-annual contract volume x labor time saved per contract x role hourly cost x discount factor.
-
-Confirmed material or courier savings should be calculated separately as annual direct saving only after finance confirmation.
-
-## 8. Data Maturity Level
-Level 2: Rough Estimate Possible. Several productivity parameters exist, but finance confirmation is missing.
-
-## 9. What Not To Do
-- Do not equate approval cycle reduction with labor-hour saving.
-- Do not label unconfirmed printing reduction as direct Cost Saving.
-- Do not use the rough estimate for investment decisions.
-
-## 10. Recommended Next Step
-Run a rough productivity estimate, then ask finance/procurement to confirm any true budget or vendor saving.
+**Data Readiness**  
+Level 1 if only page views exist; Level 2-3 if referral, conversion, cost, and owner evidence exist.
 
 ---
-小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
-## Example 3: BI Dashboard / Management Cockpit
+## Example 3 - Workflow Automation
 
-User selections: Step 1 E; Step 2 E; Step 3 D; Step 4 D and E; Step 5 F and D; Step 6 A, C, E, O.  
-Other/context: dashboard replaces weekly manual Excel reporting and supports regional sales meetings.
+**Primary Audience**  
+每月处理合同审批的法务、采购和业务审批角色。
 
-Clarifying questions:
+**Main Problem**  
+邮件、纸质和线下签署造成重复劳动、遗漏和流程不透明。
 
-1. Are decisions changed because of the dashboard, or is the value mostly report automation?  
-2. Do you know how much manual report time was saved?
+**Expected Change**  
+更多合同在线完成，净人工处理时间和实际材料成本下降。
 
-User answers: report automation is clear; decision improvement is anecdotal.
+**Primary Outcome**  
+Save.
 
-# Valence Product Value Lens Result
+**Evidence KPI**
 
-## 1. Product Type
-BI dashboard / management visibility product.
+- online completion rate;
+- annual contract volume;
+- net labor time per contract;
+- rework;
+- actual courier / printing cost.
 
-## 2. Primary Users / Audience
-管理层 / 决策者。
+**Directional Monetization**
 
-## 3. Core Use Case
-Provide timely sales and execution visibility, replacing manual Excel reporting.
+```text
+Productivity value
+= annual contract volume × verified net labor time saved × labor cost × realization factor to confirm
+```
 
-## 4. Likely Value Path
-- User-Business Value -> Decision Quality / Management Visibility
-- User-Business Value -> Productivity Gain
+Actual courier or printing reduction should be calculated separately as direct saving.
 
-## 5. Suggested Value Logic
-Start with manual reporting time saved. Keep decision quality as a value hypothesis until decisions and business actions are evidenced.
-
-## 6. Recommended Metrics to Collect
-
-| Metric | Why It Matters | Suggested Owner | User Has It? |
-| --- | --- | --- | --- |
-| Active viewers | Confirms usage | BI owner | Yes |
-| View frequency | Confirms operating rhythm | BI owner | Yes |
-| Manual report hours saved | Supports productivity | Report owner | Yes |
-| Decision/action examples | Supports decision quality | Business owner | Not selected |
-| Business metric improvement | Supports monetized value | Business/finance | Not selected |
-
-## 7. Directional Value Calculation
-Reporting productivity value =
-manual report hours saved x reporting cycles x role hourly cost x discount factor.
-
-Decision-quality value should be calculated only where a changed decision can be linked to an affected business metric.
-
-## 8. Data Maturity Level
-Level 2: Rough Estimate Possible for productivity; Level 1 for decision quality.
-
-## 9. What Not To Do
-- Do not use page views alone as value evidence.
-- Do not monetize decision quality without action evidence.
-- Do not assume every viewer creates incremental value.
-
-## 10. Recommended Next Step
-Quantify report automation savings and collect 2-3 examples of decisions or actions changed by the dashboard.
+**Product Form Question**  
+Could the same workflow be implemented in an existing enterprise platform rather than a standalone product?
 
 ---
-小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
 
-## Example 4: Compliance / Risk Control System
+## Example 4 - Shared API / Data Platform
 
-User selections: Step 1 F and H; Step 2 G; Step 3 D; Step 4 G; Step 5 H; Step 6 L, O.  
-Other/context: access approval and audit trail system for sensitive operations.
+**Primary Audience**  
+需要复用统一数据或接口能力的下游产品和应用团队。
 
-Clarifying questions:
+**Main Problem**  
+各项目重复建设接口、清洗数据和维护相似能力。
 
-1. Is there a regulatory or audit deadline?  
-2. Which owner can confirm the risk reduction logic?
+**Expected Change**  
+更多目标下游应用接入并复用统一能力，重复建设和接入时间下降。
 
-User answers: no fixed deadline; compliance owner can confirm risk category.
+**Primary Outcome**  
+Save; Protect where the platform supports critical continuity.
 
-# Valence Product Value Lens Result
+**Evidence KPI**
 
-## 1. Product Type
-Compliance / access control / audit trail product.
+- target and active downstream consumers;
+- reuse scenarios;
+- avoided duplicate-build cases;
+- onboarding time;
+- run cost and SLA.
 
-## 2. Primary Users / Audience
-职能团队 and IT / D&T teams.
+**Directional Monetization**
 
-## 3. Core Use Case
-Reduce unauthorized access and improve audit traceability.
+```text
+Save
+= avoided duplicate builds × unit build cost × attribution to confirm
+```
 
-## 4. Likely Value Path
-- Risk Reduction / Opportunity Enablement -> Risk Reduction
+Do not attribute all downstream revenue to the platform.
 
-## 5. Suggested Value Logic
-Frame value as risk reduction and audit readiness, not adoption-based ROI.
-
-## 6. Recommended Metrics to Collect
-
-| Metric | Why It Matters | Suggested Owner | User Has It? |
-| --- | --- | --- | --- |
-| Risk event type | Defines protected outcome | Compliance owner | Yes |
-| Audit findings | Shows risk evidence | Audit/compliance | Yes |
-| Potential impact range | Supports risk scale | Risk/compliance | Not selected |
-| Risk reduction mechanism | Explains product contribution | IT/security | Not selected |
-| Owner endorsement | Prevents unsupported claims | Compliance owner | Yes |
-
-## 7. Directional Value Calculation
-Risk reduction value =
-potential impact range x probability or risk tier x risk reduction ratio.
-
-Use this as a range and require compliance, security, or audit owner confirmation before formal review.
-
-## 8. Data Maturity Level
-Level 3: Evidence Review Ready if owner confirmation is documented; otherwise Level 2.
-
-## 9. What Not To Do
-- Do not judge the system only by adoption rate.
-- Do not force a precise ROI on risk reduction.
-- Do not call risk avoidance direct Cost Saving.
-
-## 10. Recommended Next Step
-Document risk type, impact range, control mechanism, and compliance owner confirmation.
-
----
-小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
-
-## Example 5: API / Data Platform / Middle Platform
-
-User selections: Step 1 H; Step 2 H; Step 3 D; Step 4 I; Step 5 C and J; Step 6 N, G, O.  
-Other/context: shared API platform used by several downstream products.
-
-Clarifying questions:
-
-1. Does the platform avoid duplicate build across teams?  
-2. Do downstream teams depend on it for critical operations?
-
-User answers: yes, it avoids duplicate integration work; some downstream products are critical.
-
-# Valence Product Value Lens Result
-
-## 1. Product Type
-Platform enablement / shared API capability.
-
-## 2. Primary Users / Audience
-IT / D&T / data / platform teams and downstream product teams.
-
-## 3. Core Use Case
-Provide reusable API capability and reduce duplicate integration work.
-
-## 4. Likely Value Path
-- Risk Reduction / Opportunity Enablement -> Platform Enablement
-- User-Business Value -> Cost Avoidance
-- Time Criticality -> Operational Continuity
-
-## 5. Suggested Value Logic
-Assess platform value through downstream reuse, avoided duplicate build, operational dependency, and run cost.
-
-## 6. Recommended Metrics to Collect
-
-| Metric | Why It Matters | Suggested Owner | User Has It? |
-| --- | --- | --- | --- |
-| Downstream apps | Measures dependency | Platform owner | Yes |
-| Reuse count | Supports platform value | Architecture owner | Yes |
-| Avoided duplicate build cost | Supports Cost Avoidance | PMO/finance | Not selected |
-| Platform run cost | Needed for efficiency view | Platform owner | Yes |
-| Incident or SLA impact | Tests continuity risk | IT operations | Not selected |
-
-## 7. Directional Value Calculation
-Platform value =
-avoided duplicate build + downstream reuse value + operational efficiency value + risk or continuity value.
-
-Separate direct platform value from attributed downstream value to avoid double counting.
-
-## 8. Data Maturity Level
-Level 2: Rough Estimate Possible for platform reuse; more evidence needed for continuity and avoided cost.
-
-## 9. What Not To Do
-- Do not judge the platform by single-product ROI only.
-- Do not ignore downstream dependency.
-- Do not count all downstream value without attribution.
-
-## 10. Recommended Next Step
-Map downstream applications, estimate avoided duplicate build, and classify dependency criticality.
-
----
-小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
-
-## Example 6: AI Content Generator / Knowledge Assistant
-
-User selections: Step 1 B and I; Step 2 F and I; Step 3 B; Step 4 B and J; Step 5 D, K, L; Step 6 A, C, E, Q.  
-Other/context: AI assistant helps teams draft content and retrieve knowledge.
-
-Clarifying questions:
-
-1. Is it already used in real work or still in a controlled pilot?  
-2. Are outputs reviewed by humans before use?  
-3. Is the main value productivity or strategic AI capability?
-
-User answers: controlled pilot; human review required; both productivity and AI capability matter.
-
-# Valence Product Value Lens Result
-
-## 1. Product Type
-AI knowledge assistant / content generation pilot.
-
-## 2. Primary Users / Audience
-市场 / 内容团队 and broader employees.
-
-## 3. Core Use Case
-Reduce drafting/retrieval effort and build early AI working capability.
-
-## 4. Likely Value Path
-- User-Business Value -> Productivity Gain
-- Risk Reduction / Opportunity Enablement -> Strategic Capability
-- Risk Reduction / Opportunity Enablement -> Learning / Validation Value
-
-## 5. Suggested Value Logic
-Treat productivity as a directional hypothesis and strategic capability as milestone-based value until real-world adoption and quality evidence improve.
-
-## 6. Recommended Metrics to Collect
-
-| Metric | Why It Matters | Suggested Owner | User Has It? |
-| --- | --- | --- | --- |
-| Active pilot users | Confirms early adoption | Product owner | Yes |
-| Usage frequency | Shows repeat use | Product owner | Yes |
-| Time saved per task | Supports productivity | Business owner | Yes |
-| Quality/rework rate | Prevents overclaiming | Content owner | Not selected |
-| Validated hypotheses | Supports learning value | Innovation owner | Not selected |
-
-## 7. Directional Value Calculation
-AI productivity value =
-active pilot users x usage frequency x labor time saved per task x role hourly cost x quality/rework adjustment.
-
-Strategic capability and learning value should remain milestone-based until adoption, quality, and business outcome evidence improve.
-
-## 8. Data Maturity Level
-Level 2: Rough Estimate Possible for limited productivity; Level 1 for strategic capability.
-
-## 9. What Not To Do
-- Do not treat AI novelty as value evidence.
-- Do not ignore human review and rework.
-- Do not turn learning value into an endless pilot.
-
-## 10. Recommended Next Step
-Define pilot hypotheses, collect output quality/rework data, and set next-stage go/no-go criteria.
-
----
-小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
-
-## Example 7: PoC / MVP / Innovation Experiment
-
-User selections: Step 1 K Not sure; Step 2 I; Step 3 B; Step 4 J; Step 5 I and L; Step 6 P.  
-Other/context: early MVP tests whether a new digital service model is useful.
-
-Clarifying questions:
-
-1. What hypothesis is the MVP testing?  
-2. Is there a time box or go/no-go criterion?  
-3. Who will decide the next stage?
-
-User answers: hypothesis is that users will complete a self-service task; no go/no-go yet; product sponsor will decide.
-
-# Valence Product Value Lens Result
-
-## 1. Product Type
-PoC / MVP / innovation experiment.
-
-## 2. Primary Users / Audience
-Not sure; likely target users still need definition.
-
-## 3. Core Use Case
-Validate whether a new digital self-service model is useful enough for next-stage investment.
-
-## 4. Likely Value Path
-- Risk Reduction / Opportunity Enablement -> Learning / Validation Value
-- Risk Reduction / Opportunity Enablement -> Opportunity Enablement
-
-## 5. Suggested Value Logic
-Frame value as validated learning and option creation. Do not monetize as current ROI until target users, adoption, and business outcomes are clearer.
-
-## 6. Recommended Metrics to Collect
-
-| Metric | Why It Matters | Suggested Owner | User Has It? |
-| --- | --- | --- | --- |
-| Hypothesis tested | Defines learning value | Product owner | Yes |
-| Target users | Clarifies audience | Business sponsor | Not sure |
-| Pilot adoption | Tests demand | Product owner | Not selected |
-| Completion rate | Tests usefulness | Product owner | Not selected |
-| Go/no-go criteria | Prevents endless pilot | Sponsor | Not selected |
-
-## 7. Directional Value Calculation
-Learning value =
-avoided wrong investment + validated learning + next-stage decision confidence.
-
-Do not monetize the MVP as current ROI until target users, adoption, and business outcomes are clearer.
-
-## 8. Data Maturity Level
-Level 0: Product Story Only moving toward Level 1 once hypotheses and metrics are defined.
-
-## 9. What Not To Do
-- Do not claim ROI from a PoC without adoption and outcome evidence.
-- Do not continue pilots without time limits and decision criteria.
-- Do not count possible future opportunity as realized value.
-
-## 10. Recommended Next Step
-Define target user, hypothesis, pilot metric, time box, and go/no-go criterion with the sponsor.
-
----
-小提示：如果这类问题不是一个产品，而是一组产品组合，就不适合继续用单产品 Lens 判断了。下一步应进入正式 Product Value Diagnostic / Valence review。这个 Lens 只帮助完成单产品的价值口径和数据准备度自查，不替代正式治理评估。
-
-
+**Product Form Question**  
+Does shared demand and reuse justify a platform, or would simpler common components or managed services meet the need?
