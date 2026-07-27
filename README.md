@@ -1,105 +1,191 @@
+<div align="center">
+
 # Valence Product Value Lens
 
-Version: **v0.2**
+**Turn a digital product story into a testable value-realization hypothesis in about three minutes.**
 
-Runtime skill id: `valence-product-value-lens`.
+Identify who the product serves, what should change, what evidence matters, how value could become economic, and whether the current product form is justified.
 
-Valence Product Value Lens is a lightweight public entry for a single digital product. It helps users move from “the product exists” to a simple, monetizable value-realization hypothesis without exposing or replacing the full Valence methodology and governance playbook.
+[![Validation](https://img.shields.io/github/actions/workflow/status/fzfclee/valence-product-value-lens/validate.yml?branch=main&style=for-the-badge&label=validation)](https://github.com/fzfclee/valence-product-value-lens/actions/workflows/validate.yml)
+[![Version](https://img.shields.io/badge/lens-v0.2-0f766e?style=for-the-badge)](SKILL.md)
+[![GitHub stars](https://img.shields.io/github/stars/fzfclee/valence-product-value-lens?style=for-the-badge&logo=github&label=stars)](https://github.com/fzfclee/valence-product-value-lens/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-2563eb?style=for-the-badge)](LICENSE)
 
-## What It Helps Clarify
+[30-second start](#30-second-start) · [See the lens](#the-value-lens) · [Example](#example-output) · [Quality evidence](#quality-evidence) · [中文](README.zh-CN.md) · [Valence](https://www.o2vframework.com/en/valence)
 
-```text
-Who → Problem → Change → Evidence → Money → Why this form
+</div>
+
+---
+
+## Why This Lens
+
+Digital product conversations often stop too early:
+
+- “It launched” is treated as value.
+- Usage is reported without showing what behavior or outcome changed.
+- Productivity is counted as saving even when no spend or capacity changes.
+- Branding, platform reuse, or risk reduction is asserted without an evidence path.
+- The current app, dashboard, or mini-program is assumed to be the right product form.
+
+Valence Product Value Lens gives an AI agent a compact, evidence-disciplined way to challenge those shortcuts and produce one usable value hypothesis.
+
+## 30-Second Start
+
+### Codex
+
+```powershell
+git clone https://github.com/fzfclee/valence-product-value-lens.git "$env:USERPROFILE\.codex\skills\valence-product-value-lens"
 ```
 
-A typical result identifies:
-
-1. Primary Audience;
-2. Main Problem;
-3. Expected Behaviour / Outcome Change;
-4. Evidence KPI;
-5. Directional Monetization and likely Grow / Save / Protect outcome;
-6. Product Form question;
-7. Data readiness and next action.
-
-## Typical 3-Minute Flow
-
-1. Choose the primary audience.
-2. Choose the main problem.
-3. Confirm the expected change.
-4. Select available evidence.
-5. Identify how the change could become economic value.
-6. Check why the current product form is needed.
-
-The runtime asks one adaptive multiple-choice question at a time. It does not require company names, contracts, screenshots, customer names, or sensitive internal data.
-
-## Economic Outcomes
-
-Valence v0.2 uses three final economic outcomes:
-
-- **Grow** - increase revenue, profit, or cash inflow;
-- **Save** - reduce or avoid cost and resource consumption;
-- **Protect** - reduce revenue loss, risk loss, or business interruption loss.
-
-Productivity, experience, decision quality, branding, time criticality, risk reduction, platform reuse, learning, and strategic capability are value mechanisms. They must connect to Grow, Save, or Protect before they can become a monetary value claim.
-
-## Who It Is For
-
-- Product owners and product managers;
-- Digital, D&T, data, AI, and platform teams;
-- Business owners preparing for a value conversation;
-- Teams needing a lightweight intake before a formal Valence review.
-
-## Who It Is Not For
-
-- Formal ROI approval;
-- Portfolio scoring or prioritization;
-- Investment, shutdown, or lifecycle decisions;
-- Full Valence operating-model design;
-- Client-specific governance thresholds or confidential calculations.
-
-## How To Invoke
-
-Use `$valence-product-value-lens` or ask:
-
-> 帮我用 Valence Product Value Lens 梳理这个数字产品的目标用户、价值实现链和数据准备度。
-
-## Example Input
+Start a new task and ask:
 
 ```text
-我有一个品牌小程序，主要展示官方品牌和产品信息，但访问量不高。我不知道它的价值应该怎么算。
+$valence-product-value-lens
+Help me assess the value hypothesis and data readiness of this digital product:
+[describe the product without sensitive data]
 ```
 
-The Lens will first narrow the primary audience, then the problem and expected change. It will not assume that “branding” is automatically valuable or that a standalone mini-program is the right product form.
+### Other AI Agents
 
-## Relationship With Valence
+Copy [`SKILL.md`](SKILL.md) and its referenced Markdown files into the agent's skill or project-instruction folder. The repository is Markdown-first and has no runtime dependency.
 
-This public Lens is an awareness and intake layer.
+## The Value Lens
 
-The full Valence method covers:
+```mermaid
+flowchart LR
+    W["Who"] --> P["Problem"]
+    P --> C["Expected change"]
+    C --> E["Evidence KPI"]
+    E --> M["Economic direction"]
+    M --> F["Why this product form?"]
+    F --> N["Next evidence action"]
+```
 
-- Value Realization Design before major investment;
-- Planned Monetized Value;
-- Actual Recognized Value;
-- Adoption Rate and Investment Efficiency;
-- Portfolio scope and review cadence;
-- lifecycle and product-form decisions.
+The Lens asks one adaptive question at a time and produces:
 
-The public Lens does not expose or run those governance mechanisms.
+| Decision question | Output |
+|---|---|
+| Who is the primary audience? | One primary audience |
+| What problem matters most? | One main problem |
+| What should change? | Observable behavior or outcome change |
+| What would count as evidence? | Evidence KPI and current data gap |
+| Where could economic value land? | One primary **Grow**, **Save**, or **Protect** direction |
+| Why this form? | Product-form challenge and alternatives |
+| What happens next? | Data-readiness level and next action |
 
-## Public Boundary
+## Grow, Save, Protect
 
-The MIT license covers this public Markdown skill, examples, and supporting text. It does not publish or license the full Valence Product Value Operations & Governance Methodology, the Valence Governance Playbook, proprietary thresholds, client deliverables, or internal operating materials.
+Valence separates economic outcomes from value mechanisms:
 
-See [NOTICE.md](NOTICE.md).
+| Economic outcome | Meaning | Example evidence path |
+|---|---|---|
+| **Grow** | Increase revenue, profit, or cash inflow | Incremental conversion × unit contribution margin |
+| **Save** | Reduce or avoid cost and resource consumption | Verified net time saved × realizable cost or capacity |
+| **Protect** | Reduce revenue loss, risk loss, or interruption loss | Potential impact × baseline probability × expected reduction |
 
-## File Guide
+Productivity, experience, decision quality, branding, time criticality, platform reuse, learning, and strategic capability are mechanisms. The Lens asks how they connect to Grow, Save, or Protect before treating them as an economic value claim.
 
-- [SKILL.md](SKILL.md) - runtime instructions;
-- [conversation_flow.md](conversation_flow.md) - adaptive wizard;
-- [value_taxonomy.md](value_taxonomy.md) - Grow / Save / Protect and value mechanisms;
-- [data_checklists.md](data_checklists.md) - minimal evidence and monetization data;
-- [output_templates.md](output_templates.md) - final output format;
-- [examples.md](examples.md) - worked examples;
-- [runtime_compatibility.md](runtime_compatibility.md) - runtime contract;
-- [NOTICE.md](NOTICE.md) - rights and public boundary.
+## Use It When
+
+| Situation | What the Lens helps decide |
+|---|---|
+| A product exists but its value story is vague | What outcome and evidence should anchor the story |
+| Adoption is low | Whether the issue is audience, problem, behavior change, or product form |
+| ROI is requested too early | Which data is missing before a directional estimate is credible |
+| A platform claims reuse value | What downstream dependency and double-counting risks need checking |
+| A compliance product looks “low usage” | Whether Protect value matters more than adoption volume |
+| A standalone app or mini-program is being questioned | Whether another delivery form could create the same value |
+
+Use it for one digital product and an early value conversation. Formal ROI approval, portfolio prioritization, investment decisions, and lifecycle governance require a broader review.
+
+## Example Output
+
+**Input**
+
+```text
+We have a brand mini-program that publishes official product information, but traffic is low.
+I do not know how to explain its value.
+```
+
+**Condensed result**
+
+```markdown
+Primary audience: prospective customers comparing products.
+Main problem: trusted product information is difficult to find at the decision moment.
+Expected change: more qualified visitors reach verified information and continue to a purchase path.
+Primary economic direction: Grow, still unvalidated.
+Evidence KPI: qualified visits that continue to retailer, lead, or purchase actions.
+Directional logic: qualified incremental journeys × conversion uplift × contribution margin.
+Product-form question: does this require a standalone mini-program, or would the official website,
+retailer integration, H5, or an existing platform provide the same trusted path?
+Data readiness: Level 1, value-realization draft ready.
+Next action: connect traffic sources to downstream actions and test one decision-stage use case.
+```
+
+The Lens does not assume that “branding” is automatically valuable or that the current product form should be preserved.
+
+## Works With
+
+| Agent / tool | Recommended setup |
+|---|---|
+| Codex | Local skill folder |
+| Claude Code | Project or personal skill folder |
+| Claude Projects | Project Instructions plus referenced files |
+| Cursor / Windsurf | Project rules or reusable instructions |
+| Hermes / OpenClaw / WorkBuddy | Markdown skill folder or reusable instruction |
+
+See [`runtime_compatibility.md`](runtime_compatibility.md) for the portable runtime contract.
+
+## Quality Evidence
+
+This repository separates structural checks from scenario evidence:
+
+- **Automated repository validation:** required files, UTF-8, frontmatter, internal Markdown links, core value rules, and referenced assets are checked on every push and pull request.
+- **Adaptive regression case:** [`tests/adaptive_regression.md`](tests/adaptive_regression.md) checks that the next question changes when the user selects a platform use case.
+- **Three documented scenarios:** [`tests/three_scenario_tests.md`](tests/three_scenario_tests.md) covers sales execution, compliance/risk control, and platform enablement.
+- **Worked examples:** [`examples.md`](examples.md) shows how value mechanisms, monetization direction, data maturity, and guardrails appear in practice.
+
+Run the local structural validation:
+
+```powershell
+python scripts/validate_repo.py
+```
+
+## Repository Map
+
+| File | Purpose |
+|---|---|
+| [`SKILL.md`](SKILL.md) | Runtime instructions and guardrails |
+| [`conversation_flow.md`](conversation_flow.md) | Adaptive one-question-at-a-time flow |
+| [`value_taxonomy.md`](value_taxonomy.md) | Grow / Save / Protect and value mechanisms |
+| [`data_checklists.md`](data_checklists.md) | Minimum evidence and monetization data |
+| [`output_templates.md`](output_templates.md) | Standard result structure |
+| [`examples.md`](examples.md) | Worked examples |
+| [`tests/`](tests) | Documented regression and scenario cases |
+
+## Valence And O2V
+
+This repository contains the standalone public Valence Product Value Lens for lightweight, single-product value framing.
+
+[Valence Product Value Operations & Governance](https://www.o2vframework.com/en/valence) is the broader model for value-realization design, planned and recognized value, adoption, investment efficiency, portfolio review, and lifecycle decisions. Valence is part of the [O2V Framework](https://www.o2vframework.com/), which connects opportunity signals to evidence-backed action and realized value.
+
+The repository's original Markdown skill, examples, and supporting text are available under the [MIT License](LICENSE). Valence and O2V methodology assets are maintained separately under the rights statement in [`NOTICE.md`](NOTICE.md).
+
+## Contributing
+
+Scenario cases, compatibility notes, clearer evidence guardrails, and portability improvements are welcome. Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a pull request.
+
+For methodology or advisory enquiries:
+
+- Chinese: WeChat `lizhi_ch`
+- English: [Zhi Li on LinkedIn](https://www.linkedin.com/in/li-zhi/)
+
+---
+
+<div align="center">
+
+**A launch is an event. Value is an evidenced change.**
+
+If the Lens helps sharpen a product decision, star the repository so other product teams can find it.
+
+</div>
