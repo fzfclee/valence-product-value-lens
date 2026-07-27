@@ -6,12 +6,7 @@
 
 Identify who the product serves, what should change, what evidence matters, how value could become economic, and whether the current product form is justified.
 
-<p>
-  <a href="https://github.com/fzfclee/valence-product-value-lens/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/fzfclee/valence-product-value-lens/validate.yml?branch=main&amp;style=for-the-badge&amp;label=validation" alt="Validation"></a>
-  <a href="SKILL.md"><img src="https://img.shields.io/badge/lens-v0.2-0f766e?style=for-the-badge" alt="Lens v0.2"></a>
-  <a href="https://github.com/fzfclee/valence-product-value-lens/stargazers"><img src="https://img.shields.io/github/stars/fzfclee/valence-product-value-lens?style=for-the-badge" alt="GitHub stars"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2563eb?style=for-the-badge" alt="MIT license"></a>
-</p>
+<p><a href="https://github.com/fzfclee/valence-product-value-lens/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/fzfclee/valence-product-value-lens/validate.yml?branch=main&amp;style=for-the-badge&amp;label=validation" alt="Validation"></a> <a href="SKILL.md"><img src="https://img.shields.io/badge/lens-v0.2-0f766e?style=for-the-badge" alt="Lens v0.2"></a> <a href="https://github.com/fzfclee/valence-product-value-lens/stargazers"><img src="https://img.shields.io/github/stars/fzfclee/valence-product-value-lens?style=for-the-badge" alt="GitHub stars"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2563eb?style=for-the-badge" alt="MIT license"></a></p>
 
 [30-second start](#30-second-start) · [See the lens](#the-value-lens) · [Example](#example-output) · [Quality evidence](#quality-evidence) · [中文](README.zh-CN.md) · [Valence](https://www.o2vframework.com/en/valence)
 
