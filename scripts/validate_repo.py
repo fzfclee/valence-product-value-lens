@@ -104,7 +104,7 @@ def validate_markdown_links() -> None:
 def validate_public_entry() -> None:
     readme = read_text("README.md")
     required_fragments = [
-        "# Valence Product Value Lens",
+        '<h1 align="center">Valence Product Value Lens</h1>',
         "## 30-Second Start",
         "## The Value Lens",
         "## Quality Evidence",

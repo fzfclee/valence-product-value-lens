@@ -1,16 +1,8 @@
-<div align="center">
-
-# Valence 产品价值透镜
-
-**用大约三分钟，把“这个产品已经上线”变成一条可以验证的价值实现假设。**
-
-说清产品服务谁、解决什么问题、期待什么变化、需要什么证据、价值如何落到经济结果，以及当前产品形态是否合理。
-
-<p><a href="https://github.com/fzfclee/valence-product-value-lens/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/fzfclee/valence-product-value-lens/validate.yml?branch=main&amp;style=for-the-badge&amp;label=validation" alt="Validation"></a> <a href="SKILL.md"><img src="https://img.shields.io/badge/lens-v0.2-0f766e?style=for-the-badge" alt="Lens v0.2"></a> <a href="https://github.com/fzfclee/valence-product-value-lens/stargazers"><img src="https://img.shields.io/github/stars/fzfclee/valence-product-value-lens?style=for-the-badge" alt="GitHub stars"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2563eb?style=for-the-badge" alt="MIT license"></a></p>
-
-[30 秒开始](#30-秒开始) · [价值透镜](#价值透镜) · [输出示例](#输出示例) · [质量证据](#质量证据) · [English](README.md) · [Valence](https://www.o2vframework.com/zh/valence)
-
-</div>
+<h1 align="center">Valence 产品价值透镜</h1>
+<p align="center"><strong>用大约三分钟，把“这个产品已经上线”变成一条可以验证的价值实现假设。</strong></p>
+<p align="center">说清产品服务谁、解决什么问题、期待什么变化、需要什么证据、价值如何落到经济结果，以及当前产品形态是否合理。</p>
+<p align="center"><a href="https://github.com/fzfclee/valence-product-value-lens/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/fzfclee/valence-product-value-lens/validate.yml?branch=main&amp;style=for-the-badge&amp;label=validation" alt="Validation"></a> <a href="SKILL.md"><img src="https://img.shields.io/badge/lens-v0.2-0f766e?style=for-the-badge" alt="Lens v0.2"></a> <a href="https://github.com/fzfclee/valence-product-value-lens/stargazers"><img src="https://img.shields.io/github/stars/fzfclee/valence-product-value-lens?style=for-the-badge" alt="GitHub stars"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2563eb?style=for-the-badge" alt="MIT license"></a></p>
+<p align="center"><a href="#30-秒开始">30 秒开始</a> · <a href="#价值透镜">价值透镜</a> · <a href="#输出示例">输出示例</a> · <a href="#质量证据">质量证据</a> · <a href="README.md">English</a> · <a href="https://www.o2vframework.com/zh/valence">Valence</a></p>
 
 ---
 
